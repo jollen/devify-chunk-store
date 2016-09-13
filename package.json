@@ -1,0 +1,35 @@
+{
+  "name": "devify-chunk-store",
+  "version": "0.0.1",
+  "description": "Chunk store IoT server that is abstract-chunk-store compliant built using memory as the storage backend.",
+  "keywords": [
+    "iot",
+    "chunk"
+  ],
+  "author": "jollen <jollen@jollen.org> (http://jollen.org/)",
+  "main": "store.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jollen/devify-chunk-store.git"
+  },
+  "homepage": "https://github.com/jollen/devify-chunk-store.git",
+  "dependencies": {
+    "bl": "^0.9.4",
+    "bluebird": "^3.3.3",
+    "coap": "^0.10.3",
+    "memory-chunk-store": "^1.2.0",
+    "util": "^0.10.3",
+    "utils-merge": "^1.0.0",
+    "websocket": "^1.0.17",
+    "wotcity.io": "*"
+  },
+  "scripts": {
+    "start": "node ./store.js"
+  },
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "mocha": "^2.4.5",
+    "twilio": "^2.9.0"
+  },
+  "license": "MIT License"
+}

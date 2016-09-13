@@ -1,4 +1,4 @@
-# devify-trunk-store
+# devify-chunk-store
 
 IoT chunk store that is [abstract-chunk-store](https://github.com/mafintosh/abstract-chunk-store) compliant built using memory as the storage backend.
 
